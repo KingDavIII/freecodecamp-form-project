@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    font-size: 16px;
 }
 body{ 
     background-image: linear-gradient(rgba(100, 200, 100, 0.5), rgba(200, 100, 100, 0.5)), url("school-image.jpeg");
@@ -77,6 +78,5 @@ textarea {
 @media screen and (max-width: 500px) {
     #main {
         width: 100%;
-        font-size: 16px;
     }
 }
