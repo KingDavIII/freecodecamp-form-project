@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{ 
+    background-image: linear-gradient(rgba(100, 200, 100, 0.5), rgba(200, 100, 100, 0.5)), url("school-image.jpeg");
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#main {
+    margin: auto;
+    width: 60%;
+    opacity: 0.9;
+    padding: 20px 10px;
+}
+#div1{
+    background-color: cadetblue;
+    height: 100%;
+    padding: 10px;
+}
+#title, #description {
+    color: cornsilk;
+    font-size: xx-large;
+    text-align: center;
+}
+.new1{
+    width: 100%;
+}
+#name, #email, #number, #dropdown {
+    width: 100%;
+    padding: 12px ;
+    display: inline-block;
+    border: 1px solid cornflowerblue;
+    border-radius: 40px;
+}
+p {
+    color: crimson;
+    font-size: larger;
+    margin: 15px 0 10px 0;
+}
+.my, .club {
+    text-align: left;
+    padding: 12px 20px;
+    margin: 0;
+    display: inline;
+}
+#survey-form {
+    font-size: larger;
+    color: cornsilk;
+    padding: 10px 15px;
+    margin: 10px;
+    padding: 10px;
+}
+#submit {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid cornflowerblue;
+    border-radius: 40px;
+    background-color: crimson;
+}
+
+textarea {
+    width: 100%;
+}
+
+.space {
+    margin: 10px 0 25px 0;
+}
+@media screen and (max-width: 400px) {
+    #main {
+        width: 100%;
+    }
+}
